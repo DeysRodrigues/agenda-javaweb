@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap')
+	;
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	font-weight: 400px;
+	align-items: center;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.button1 {
+	text-align: center;
+	gap: 10px;
+}
+
+.botaoAcess {
+	text-decoration: none;
+	border-radius: 12px;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	height: 50px;
+	padding: 10px;
+	background-color: #7f849c;
+	color: #eee;
+}
+
+.b01 {
+	margin: 0 5px;
+}
+
+.b02 {
+	margin: 0 5px;
+}
+
+#tabela {
+	margin-top: 30px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tabela th {
+	border-radius: 12px;
+	padding: 10px;
+	background-color: #07071a;
+	color: #f3eefc;
+}
+
+#tabela td {
+	padding: 10px;
+	border-radius: 12px;
+	background-color: #f3eefc;
+}
+
+.botaoEdi {
+	text-decoration: none;
+	border-radius: 12px;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	height: 50px;
+	padding: 8px;
+	background-color: #a2faa3;
+	color: #07071a;
+	margin: 0 2px;
+}
+
+.botaoEx {
+	text-decoration: none;
+	border-radius: 12px;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	height: 50px;
+	padding: 8px;
+	background-color: #b30024;
+	color: #07071a;
+	margin: 0 2px;
+}

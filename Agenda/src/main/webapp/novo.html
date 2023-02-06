@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Criar novo</title>
+<link rel="stylesheet" href="style2.css">
+<link rel="icon" href="imagens/phone.svg">
+</head>
+<body>
+	<div class="form">
+		<form name="frmContato" action="insert">
+			<div class="input-container ic1">
+				<input id="firstname" class="input" type="text" name = "nome" placeholder=" " />
+				<div class="cut"></div>
+				<label for="nome" class="placeholder">Nome</label>
+			</div>
+
+			<div class="input-container ic2">
+				<input id="lastname" class="input" type="text" name="fone" placeholder=" " />
+				<div class="cut"></div>
+				<label for="fone" class="placeholder">Fone</label>
+			</div>
+
+			<div class="input-container ic2">
+				<input id="email" class="input" type="text" name="email" placeholder=" " />
+				<div class="cut cut-short"></div>
+				<label for="email" class="placeholder"> E-mail </label>
+			</div>
+		</form>
+		<input type="submit" value="Adicionar" class="salvar"
+			onclick="validar()">
+	</div> <!-- Form -->
+
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
